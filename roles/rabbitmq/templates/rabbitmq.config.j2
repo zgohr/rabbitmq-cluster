@@ -1,0 +1,12 @@
+[
+  {rabbit,
+    [
+      {cluster_nodes, {[
+        {% for host in groups['rabbitmq-cluster'] %}
+          'rabbit@{{ host }}'{% if not loop.last %},{% endif %}
+        {% endfor %}
+      ], disc}},
+      {loopback_users, []}
+    ]
+  }
+].

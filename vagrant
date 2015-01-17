@@ -1,0 +1,10 @@
+[nodes]
+node1
+node2
+node3
+
+[rabbitmq-cluster:children]
+nodes
+
+[development:children]
+nodes

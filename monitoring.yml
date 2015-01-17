@@ -1,0 +1,6 @@
+---
+- hosts: rabbitmq-cluster
+  user: "{{ user }}"
+  sudo: yes
+  roles:
+    - rabbitmq

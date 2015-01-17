@@ -1,0 +1,7 @@
+---
+erlang:
+  url: http://packages.erlang-solutions.com/erlang-solutions-1.0-1.noarch.rpm
+
+rabbitmq:
+  key: http://www.rabbitmq.com/rabbitmq-signing-key-public.asc
+  url: https://www.rabbitmq.com/releases/rabbitmq-server/v3.4.3/rabbitmq-server-3.4.3-1.noarch.rpm
